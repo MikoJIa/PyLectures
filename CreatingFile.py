@@ -1,8 +1,8 @@
 # Три версии создания файла
 
-# colors = ['Red', 'Green', 'Blue123']
-# data = open('File.txt', 'a')
-# #data.writelines(colors)
+colors = ['Red', 'Green', 'Blue123']
+data = open('File.txt', 'w')
+data.writelines(colors)
 # data.write('\nLine 11\n')
 # data.write('Line 14\n')
 # data.close()
